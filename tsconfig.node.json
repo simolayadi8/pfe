@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "typeRoots": ["node_modules/@types", "src/@types"],
+    "types": [], // Retirer les types spécifiques pour éviter les conflits
+    "skipLibCheck": true, // Maintenir pour ignorer les erreurs de types externes
+    "composite": true,
+    "module": "ESNext",
+    "moduleResolution": "bundler", // Conserver le mode recommandé par Vite
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "esModuleInterop": true // Ajouter pour une meilleure interopérabilité
+  },
+  "include": ["vite.config.ts"]
+}
