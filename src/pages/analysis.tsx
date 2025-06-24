@@ -693,7 +693,7 @@ const AnalysisPage: React.FC = () => {
 
         {activeTab === 'rendement' && (
           <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6">
-            <h2 className="text-xl font-semibold mb-4">Rendements Réels vs Prédits</h2>
+            <h2 className="text-xl font-semibold mb-4">Rendements Réels vs Prédits(obtenues par méthode LOO)</h2>
             
             {/* Sélecteur d'année */}
             <div className="mb-6">

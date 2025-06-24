@@ -13,6 +13,7 @@ export const siteConfig = {
     { label: "Accueil",      href: "/"           },
     { label: "Carte",        href: "/map"        },
     { label: "Analyse",      href: "/analysis"   },
+    { label: "Prédiction",   href: "/prediction" },
   ],
 
   // Liens du menu mobile (navbar burger)
@@ -20,6 +21,7 @@ export const siteConfig = {
     { label: "Accueil",      href: "/"           },
     { label: "Carte",        href: "/map"        },
     { label: "Analyse",      href: "/analysis"   },
+    { label: "Prédiction",   href: "/prediction" },
     // si tu veux, ajoute d'autres pages ici
   ],
 

@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Fix z-index issues with Leaflet map and modals */
+.leaflet-container {
+  z-index: 1 !important;
+}
+
+.leaflet-control-container {
+  z-index: 1000 !important;
+}
+
+.leaflet-popup {
+  z-index: 1100 !important;
+}
+
+/* Ensure modals appear above everything */
+[data-slot="base"][role="dialog"] {
+  z-index: 9999 !important;
+}
+
+[data-slot="backdrop"] {
+  z-index: 9998 !important;
+}

@@ -17,7 +17,7 @@ export default function IndexPage() {
         </h1>
 
         <p className={subtitle({ class: "mt-4 max-w-2xl text-center" })}>
-          Explorez les données NDVI, météorologiques et de rendement pour une meilleure compréhension de vos parcelles.
+          Explorer les données NDVI, météorologiques et de rendement
         </p>
 
         <div className="flex gap-4 mt-8">
